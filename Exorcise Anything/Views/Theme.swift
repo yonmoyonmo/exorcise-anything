@@ -22,11 +22,20 @@ enum Palette {
   static let purple = Color(red: 0.53, green: 0.07, blue: 0.89)
   static let green = Color(red: 0.42, green: 0.89, blue: 0.07)
   static let gold = Color(red: 1, green: 0.80, blue: 0.22)
+  static let hauntedPurple = Color(red: 0x88 / 255, green: 0x11 / 255, blue: 0xE4 / 255)  // #8811E4
+  static let hauntedGreen = Color(red: 0x6C / 255, green: 0xE4 / 255, blue: 0x11 / 255)  // #6CE411
+  static let halo = Color(red: 1, green: 0xFD / 255, blue: 0xF7 / 255)  // #FFFDF7
   static let ivory = Color(red: 1, green: 0.99, blue: 0.97)
   static func font(_ size: CGFloat) -> Font {
     .custom(
       Locale.preferredLanguages.first?.hasPrefix("ja") == true
         ? "PixelMplus12-Regular" : "Sam3KRFont", size: size, relativeTo: .body)
+  }
+}
+extension View {
+  /// Light tap feedback for buttons.
+  func haptic(_ style: UIImpactFeedbackGenerator.FeedbackStyle = .light) -> some View {
+    simultaneousGesture(TapGesture().onEnded { UIImpactFeedbackGenerator(style: style).impactOccurred() })
   }
 }
 struct GameButton: View {
@@ -43,7 +52,7 @@ struct GameButton: View {
       .font(Palette.font(18)).frame(maxWidth: .infinity, minHeight: 50).padding(.horizontal, 12)
       .background(color, in: RoundedRectangle(cornerRadius: 14)).overlay(
         RoundedRectangle(cornerRadius: 14).stroke(Palette.ink, lineWidth: 2))
-    }.buttonStyle(.plain).foregroundStyle(Palette.ink)
+    }.buttonStyle(.plain).haptic().foregroundStyle(Palette.ink)
   }
 }
 struct GoldBadge: View {
@@ -107,7 +116,7 @@ struct GameDialogOverlay: View {
               in: RoundedRectangle(cornerRadius: 14)
             ).overlay(RoundedRectangle(cornerRadius: 14).stroke(Palette.ink, lineWidth: 2))
               .foregroundStyle(item.role == .destructive ? Color.white : Palette.ink)
-          }.buttonStyle(.plain)
+          }.buttonStyle(.plain).haptic()
         }
       }.padding(20).frame(maxWidth: 360).background(
         Palette.paper, in: RoundedRectangle(cornerRadius: 20)
@@ -185,16 +194,43 @@ struct QuantityPicker: View {
         value = max(0, value - 1)
       } label: {
         Image(systemName: "minus").frame(minWidth: 36, minHeight: 44)
-      }.disabled(value == 0)
+      }.haptic().disabled(value == 0)
       Text(verbatim: "\(value)").font(.system(.subheadline, design: .monospaced)).frame(
         maxWidth: .infinity)
       Button {
         value = min(maximum, value + 1)
       } label: {
         Image(systemName: "plus").frame(minWidth: 36, minHeight: 44)
-      }.disabled(value >= maximum)
+      }.haptic().disabled(value >= maximum)
     }.buttonStyle(.plain).accessibilityElement(children: .contain).accessibilityLabel(
       L(tool.key) + " " + L("quantity"))
+  }
+}
+/// Card border that slowly cycles between two colors with a soft glow. Static under Reduce Motion.
+struct GlowingBorder: View {
+  let from: Color
+  let to: Color
+  var glow: Color? = nil
+  @Environment(\.accessibilityReduceMotion) private var reduceMotion
+  var body: some View {
+    TimelineView(.animation(paused: reduceMotion)) { context in
+      let t = reduceMotion ? 0 : context.date.timeIntervalSinceReferenceDate
+      let phase = (sin(t * 2 * .pi / 3.2) + 1) / 2
+      let color = Self.mix(from, to, phase)
+      RoundedRectangle(cornerRadius: 18).stroke(color, lineWidth: 4)
+        .shadow(color: (glow ?? color).opacity(0.5 + 0.3 * phase), radius: 6 + 6 * phase)
+    }
+  }
+  /// Mixes in HSB so purple → green passes through saturated blue/cyan instead of muddy gray.
+  private static func mix(_ a: Color, _ b: Color, _ t: Double) -> Color {
+    var (ah, asat, abri, bh, bsat, bbri) = (CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0), CGFloat(0))
+    var alpha: CGFloat = 0
+    UIColor(a).getHue(&ah, saturation: &asat, brightness: &abri, alpha: &alpha)
+    UIColor(b).getHue(&bh, saturation: &bsat, brightness: &bbri, alpha: &alpha)
+    let t = CGFloat(t)
+    return Color(
+      hue: ah + (bh - ah) * t, saturation: asat + (bsat - asat) * t,
+      brightness: abri + (bbri - abri) * t)
   }
 }
 struct CardFace: View {
@@ -226,7 +262,7 @@ struct CardFace: View {
       ).clipShape(RoundedRectangle(cornerRadius: 8))
       if blessed {
         HStack(spacing: 5) {
-          Image("stat_holiness").resizable().scaledToFit().frame(
+          Image("stat_holiness").resizable().interpolation(.none).scaledToFit().frame(
             width: compact ? 22 : 30, height: compact ? 22 : 30)
           Text(verbatim: F("holiness", card.holiness ?? 0)).font(Palette.font(compact ? 13 : 17))
         }
@@ -250,10 +286,16 @@ struct CardFace: View {
       }
       if !compact { Text(verbatim: L("app_name")).font(Palette.font(11)).opacity(0.6) }
     }.padding(compact ? 10 : 16).background(blessed ? Palette.ivory : Color(white: 0.95))
-      .clipShape(RoundedRectangle(cornerRadius: 18)).overlay(
-        RoundedRectangle(cornerRadius: 18).stroke(
-          blessed ? Palette.gold : Palette.purple, lineWidth: 4)
-      )
+      .clipShape(RoundedRectangle(cornerRadius: 18)).overlay {
+        if compact {
+          RoundedRectangle(cornerRadius: 18).stroke(
+            blessed ? Palette.gold : Palette.hauntedPurple, lineWidth: 4)
+        } else if blessed {
+          GlowingBorder(from: Palette.halo, to: Palette.gold, glow: Palette.gold)
+        } else {
+          GlowingBorder(from: Palette.hauntedPurple, to: Palette.hauntedGreen)
+        }
+      }
       .foregroundStyle(Palette.ink).animation(.easeInOut(duration: 0.35), value: card.kind)
   }
 }

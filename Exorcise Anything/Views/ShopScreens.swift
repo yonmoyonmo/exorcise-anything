@@ -19,13 +19,16 @@ struct ShopScene: View {
   var body: some View {
     GeometryReader { geo in
       ZStack(alignment: .bottom) {
-        Image("shop_background").resizable().scaledToFill().frame(
-          width: geo.size.width, height: geo.size.height
-        ).clipped()
-        Image(customer.map { String(format: "customer_%02d", $0) } ?? "shop_owner").resizable()
+        // The 2:3 background is cropped to a wide strip; show the wall (upper part), not just floor.
+        let artHeight = geo.size.width * 1.5
+        Image("shop_background").resizable().interpolation(.none)
+          .frame(width: geo.size.width, height: artHeight)
+          .frame(width: geo.size.width, height: geo.size.height, alignment: .top)
+          .offset(y: -min(0.26 * artHeight, max(0, artHeight - geo.size.height)))
+        Image(customer.map { String(format: "customer_%02d", $0) } ?? "shop_owner").resizable().interpolation(.none)
           .scaledToFit().frame(height: geo.size.height * 0.95).offset(y: customer == nil ? 20 : 25)
         if customer != nil {
-          Image("work_counter").resizable().scaledToFill().frame(height: geo.size.height * 0.23)
+          Image("work_counter").resizable().interpolation(.none).scaledToFill().frame(height: geo.size.height * 0.23)
             .clipped()
         }
       }.frame(width: geo.size.width, height: geo.size.height).clipped().clipShape(
@@ -55,7 +58,7 @@ struct ShopScreen: View {
     VStack(spacing: 0) {
       Picker(L("shop"), selection: $tab) {
         ForEach(ShopTab.allCases, id: \.self) { Text(verbatim: L($0.rawValue)).tag($0) }
-      }.pickerStyle(.segmented).padding(.horizontal, 20).padding(.bottom, 8)
+      }.pickerStyle(.segmented).padding(.horizontal, 20).padding(.bottom, 8).sensoryFeedback(.selection, trigger: tab)
       ScrollView {
         VStack(spacing: 16) {
           ShopScene().frame(height: 155)
@@ -130,7 +133,6 @@ struct ShopScreen: View {
   private var saleControls: some View {
     VStack(spacing: 16) {
       VStack(spacing: 8) {
-        Text(verbatim: L("charm_buyer")).font(Palette.font(22))
         Text(verbatim: L("charm_buyer_line")).font(Palette.font(17))
         Text(verbatim: L("sale_price_rule")).font(.caption).foregroundStyle(.secondary)
       }.multilineTextAlignment(.center).frame(maxWidth: .infinity).panel()
@@ -159,7 +161,7 @@ struct ShopScreen: View {
                   }
                 Text(verbatim: F("sale_quote", card.salePrice ?? 0)).font(Palette.font(17))
               }
-            }.buttonStyle(.plain)
+            }.buttonStyle(.plain).haptic()
               .accessibilityAddTraits(selectedID == card.id ? .isSelected : [])
           }
         }
@@ -212,7 +214,7 @@ struct WorkScreen: View {
                 Text(verbatim: L(tool.key)).font(Palette.font(14))
               }.frame(maxWidth: .infinity).padding(.vertical, 8).background(
                 Palette.ivory, in: RoundedRectangle(cornerRadius: 12))
-            }.buttonStyle(.plain).disabled(serving)
+            }.buttonStyle(.plain).haptic().disabled(serving)
           }
         }
         GameButton(key: "exit_work", color: Palette.ivory) { dismiss() }

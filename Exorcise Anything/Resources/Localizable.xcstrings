@@ -1,2177 +1,9 @@
 {
   "sourceLanguage": "ko",
   "strings": {
-    "tool_garlic": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "마늘"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Garlic"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ニンニク"
-          }
-        }
-      }
-    },
-    "tool_holy_water": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성수"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Holy Water"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "聖水"
-          }
-        }
-      }
-    },
-    "tool_salt": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "소금"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salt"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "塩"
-          }
-        }
-      }
-    },
-    "tool_red_beans": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "팥"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Red Beans"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "小豆"
-          }
-        }
-      }
-    },
-    "tool_talisman": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부적"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paper Talisman"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "お札"
-          }
-        }
-      }
-    },
-    "tool_fist": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주먹"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fist"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "拳"
-          }
-        }
-      }
-    },
-    "charm_name_placeholder": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이름을 지어 주세요"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Give it a name"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "名前をつけてください"
-          }
-        }
-      }
-    },
-    "spirit_t4_001": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "잡귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lesser Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "雑霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_002": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "객귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stray Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "迷い霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_003": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "떠돌이귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wandering Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "さまよう霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_004": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "먼지귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dust Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ほこりの霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_005": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "낮잠귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drowsy Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "居眠りの霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_006": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "장난귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trickster Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "いたずらの霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_007": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "골목귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alley Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "路地の霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_008": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다락귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Attic Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "屋根裏の霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_009": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "문틈귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Doorway Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "戸口の霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_010": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "그림자귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shadow Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "影の霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_011": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "메아리귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Echo Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "こだまの霊"
-          }
-        }
-      }
-    },
-    "spirit_t4_012": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "빈방귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Empty-Room Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "空き部屋の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_001": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "걸신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Glutton Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "食欲の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_002": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "물귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Water Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "水の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_003": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "처녀귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Maiden Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "乙女の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_004": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "총각귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bachelor Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "青年の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_005": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "달걀귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Faceless Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "のっぺらぼう"
-          }
-        }
-      }
-    },
-    "spirit_t3_006": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "거울귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mirror Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "鏡の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_007": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "우물귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Well Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "井戸の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_008": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "밤길귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Night-Road Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "夜道の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_009": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "원귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vengeful Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "怨霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_010": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지박령"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Earthbound Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "地縛霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_011": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "손님귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guest Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "客の霊"
-          }
-        }
-      }
-    },
-    "spirit_t3_012": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "꿈귀신"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dream Ghost"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "夢の霊"
-          }
-        }
-      }
-    },
-    "spirit_t2_001": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "鬼"
-          }
-        }
-      }
-    },
-    "spirit_t2_002": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "불도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Flame Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "火の鬼"
-          }
-        }
-      }
-    },
-    "spirit_t2_003": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "외눈도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "One-Eyed Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "一つ目鬼"
-          }
-        }
-      }
-    },
-    "spirit_t2_004": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구미호"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nine-Tailed Fox"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "九尾の狐"
-          }
-        }
-      }
-    },
-    "spirit_t2_005": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "강시"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hopping Vampire"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キョンシー"
-          }
-        }
-      }
-    },
-    "spirit_t2_006": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "흡혈귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vampire"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "吸血鬼"
-          }
-        }
-      }
-    },
-    "spirit_t2_007": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "미라"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mummy"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ミイラ"
-          }
-        }
-      }
-    },
-    "spirit_t2_008": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "늑대인간"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Werewolf"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "狼男"
-          }
-        }
-      }
-    },
-    "spirit_t2_009": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "설녀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snow Woman"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "雪女"
-          }
-        }
-      }
-    },
-    "spirit_t2_010": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이무기"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Serpent"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "大蛇"
-          }
-        }
-      }
-    },
-    "spirit_t2_011": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "어둑시니"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Darkling"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "暗がりの霊"
-          }
-        }
-      }
-    },
-    "spirit_t2_012": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "빗자루도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Broom Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ほうきの妖怪"
-          }
-        }
-      }
-    },
-    "spirit_t1_001": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "수라"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asura"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "阿修羅"
-          }
-        }
-      }
-    },
-    "spirit_t1_002": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "야차"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yaksha"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "夜叉"
-          }
-        }
-      }
-    },
-    "spirit_t1_003": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나찰"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rakshasa"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "羅刹"
-          }
-        }
-      }
-    },
-    "spirit_t1_004": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "마왕"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Demon King"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "魔王"
-          }
-        }
-      }
-    },
-    "spirit_t1_005": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "귀왕"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ghost King"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "鬼王"
-          }
-        }
-      }
-    },
-    "spirit_t1_006": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hungry Wraith"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "餓鬼"
-          }
-        }
-      }
-    },
-    "spirit_t1_007": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "대도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Great Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "大鬼"
-          }
-        }
-      }
-    },
-    "spirit_t1_008": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "천년구미호"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ancient Fox"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "千年の九尾"
-          }
-        }
-      }
-    },
-    "spirit_t1_009": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "백년강시"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ancient Hopper"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "百年キョンシー"
-          }
-        }
-      }
-    },
-    "spirit_t1_010": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "천년이무기"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ancient Serpent"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "千年大蛇"
-          }
-        }
-      }
-    },
-    "spirit_t1_011": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "붉은도깨비"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Red Goblin"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "赤鬼"
-          }
-        }
-      }
-    },
-    "spirit_t1_012": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "악몽귀"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nightmare Spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "悪夢の霊"
-          }
-        }
-      }
-    },
-    "blessing_001": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "나쁜 기운은 물러가고 평안이 깃들기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May ill fortune pass and peace remain."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "厄が去り、穏やかな日々が訪れますように。"
-          }
-        }
-      }
-    },
-    "blessing_002": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "가는 곳마다 무탈하고 돌아오는 길도 평안하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May you travel safely and return in peace."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "行く先々で無事に過ごし、安らかに帰れますように。"
-          }
-        }
-      }
-    },
-    "blessing_003": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "집 안에 평안이 머물고 근심이 멀어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May peace fill your home and worries fade."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "家に安らぎが満ち、心配ごとが遠のきますように。"
-          }
-        }
-      }
-    },
-    "blessing_004": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "몸과 마음이 늘 건강하고 편안하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your body and mind be well and at ease."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "心も体も健やかで、穏やかに過ごせますように。"
-          }
-        }
-      }
-    },
-    "blessing_005": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "뜻밖의 어려움도 무사히 지나가기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May you come safely through unexpected trials."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "思いがけない困難も無事に乗り越えられますように。"
-          }
-        }
-      }
-    },
-    "blessing_006": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사랑하는 이들이 어디서나 무탈하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May those you love be safe wherever they are."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "大切な人たちが、どこにいても無事でありますように。"
-          }
-        }
-      }
-    },
-    "blessing_007": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "밤에는 깊이 쉬고 아침에는 가뿐히 일어나기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May you sleep deeply and wake refreshed."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "夜はぐっすり眠り、朝はすっきり目覚められますように。"
-          }
-        }
-      }
-    },
-    "blessing_008": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "흔들리는 순간에도 마음의 중심을 지키기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your heart stay steady in uncertain times."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "心が揺れるときも、自分を見失わずにいられますように。"
-          }
-        }
-      }
-    },
-    "blessing_009": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "궂은일은 비켜가고 좋은 기운이 함께하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May misfortune pass you by and good fortune stay."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "災いを避け、幸運に恵まれますように。"
-          }
-        }
-      }
-    },
-    "blessing_010": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "머무는 자리마다 따뜻한 기운이 깃들기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May warmth surround you wherever you stay."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "どこにいても、温かな気に包まれますように。"
-          }
-        }
-      }
-    },
-    "blessing_011": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "먼 길에도 가까운 길에도 평안이 함께하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May peace accompany every journey, near or far."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "遠くへも近くへも、道中が穏やかでありますように。"
-          }
-        }
-      }
-    },
-    "blessing_012": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오늘도 내일도 별 탈 없이 평온하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May today and tomorrow pass in quiet peace."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "今日も明日も、何事もなく穏やかに過ごせますように。"
-          }
-        }
-      }
-    },
-    "blessing_013": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "바라는 일이 순조롭게 이루어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your wishes come true with ease."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "願いごとが順調にかないますように。"
-          }
-        }
-      }
-    },
-    "blessing_014": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "정성 들인 일에 좋은 결실이 맺히기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your care and effort bear good fruit."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "心を込めた努力が、よい実を結びますように。"
-          }
-        }
-      }
-    },
-    "blessing_015": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "재물은 모이고 살림은 넉넉해지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May prosperity grow and your home know plenty."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "財に恵まれ、暮らしが豊かになりますように。"
-          }
-        }
-      }
-    },
-    "blessing_016": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "좋은 기회가 알맞은 때에 찾아오기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May the right opportunity arrive at the right time."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "よい機会が、ふさわしいときに訪れますように。"
-          }
-        }
-      }
-    },
-    "blessing_017": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새로 시작하는 일에 밝은 길이 열리기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May a bright path open with each new beginning."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "新たな始まりに、明るい道が開けますように。"
-          }
-        }
-      }
-    },
-    "blessing_018": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "막혀 있던 일이 풀리고 앞길이 트이기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May obstacles clear and the way ahead open."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "滞っていた物事が動き出し、道が開けますように。"
-          }
-        }
-      }
-    },
-    "blessing_019": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "오래 품은 소망이 마침내 꽃피기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your long-held hopes finally bloom."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "長く抱いてきた願いが、ついに花開きますように。"
-          }
-        }
-      }
-    },
-    "blessing_020": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "배운 것이 깊어지고 노력한 만큼 빛나기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your learning deepen and your efforts shine."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "学びが深まり、努力が輝きますように。"
-          }
-        }
-      }
-    },
-    "blessing_021": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "중요한 순간에 준비한 실력을 펼치기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your preparation shine when it matters most."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "大切な場面で、培った力を発揮できますように。"
-          }
-        }
-      }
-    },
-    "blessing_022": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "선택의 갈림길마다 지혜가 함께하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May wisdom guide you at every crossroads."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "選択のたびに、知恵に導かれますように。"
-          }
-        }
-      }
-    },
-    "blessing_023": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "작은 복이 쌓여 큰 기쁨으로 돌아오기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May small blessings gather into lasting joy."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "小さな幸せが重なり、大きな喜びとなりますように。"
-          }
-        }
-      }
-    },
-    "blessing_024": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "하는 일마다 좋은 인연과 기회가 이어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May all you do bring good company and opportunity."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "取り組むことすべてに、よいご縁と機会がありますように。"
-          }
-        }
-      }
-    },
-    "blessing_025": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "좋은 인연은 가까워지고 오래 이어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May good connections find you and endure."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "よいご縁に恵まれ、末永く続きますように。"
-          }
-        }
-      }
-    },
-    "blessing_026": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "서로를 아끼는 마음이 깊어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your care for one another grow deeper."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "互いを大切に思う心が、深まりますように。"
-          }
-        }
-      }
-    },
-    "blessing_027": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "소중한 사람과 웃음을 나누는 날이 많아지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May you share more laughter with those you cherish."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "大切な人と笑い合う日が、増えますように。"
-          }
-        }
-      }
-    },
-    "blessing_028": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "마음에 쌓인 근심이 가볍게 흩어지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May the worries in your heart gently fade."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "心に積もった悩みが、そっとほどけますように。"
-          }
-        }
-      }
-    },
-    "blessing_029": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "멀리 있는 이에게도 따뜻한 마음이 닿기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your warmth reach those far away."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "遠くにいる人にも、温かな思いが届きますように。"
-          }
-        }
-      }
-    },
-    "blessing_030": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "서운함은 풀리고 다정한 말이 오가기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May hurt feelings heal and kind words flow."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "わだかまりが解け、優しい言葉を交わせますように。"
-          }
-        }
-      }
-    },
-    "blessing_031": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지친 마음에 다시 나아갈 힘이 깃들기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your weary heart find strength to carry on."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "疲れた心に、また歩み出す力が宿りますように。"
-          }
-        }
-      }
-    },
-    "blessing_032": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "스스로를 믿는 마음이 단단해지기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May your faith in yourself grow strong."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "自分を信じる心が、強くなりますように。"
-          }
-        }
-      }
-    },
-    "blessing_033": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "베푼 정성이 따뜻한 인연으로 돌아오기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May the kindness you give return as friendship."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "注いだ優しさが、温かなご縁となって返りますように。"
-          }
-        }
-      }
-    },
-    "blessing_034": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "혼자 걷는 길에도 든든한 인연이 함께하기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May you find steadfast support, even on a lone path."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ひとりで歩む道にも、心強い支えがありますように。"
-          }
-        }
-      }
-    },
-    "blessing_035": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "지나간 아픔은 옅어지고 새 기쁨이 깃들기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May old sorrows fade and new joys take root."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "過ぎた悲しみが薄れ、新しい喜びが芽生えますように。"
-          }
-        }
-      }
-    },
-    "blessing_036": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "소중히 바라는 행복이 오래 곁에 머물기를."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "May the happiness you wish for stay close."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "心から願う幸せが、末永くそばにありますように。"
-          }
-        }
-      }
-    },
-    "app_name": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무엇이든성불"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exorcise Anything"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "なんでも成仏"
-          }
-        }
-      }
-    },
-    "capture": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "찰칵 퇴마"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snap & exorcise"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "撮って成仏"
-          }
-        }
-      }
-    },
-    "home_tagline": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "일단 찍고, 성불시키자."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Point. Shoot. Rest in peace."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "とりあえず撮って、成仏させよう。"
-          }
-        }
-      }
-    },
     "album": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카드함"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2183,419 +15,34 @@
             "state": "translated",
             "value": "カード帳"
           }
-        }
-      }
-    },
-    "bag": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "도구함"
+            "value": "카드함"
           }
-        },
+        }
+      }
+    },
+    "app_name": {
+      "extractionState": "manual",
+      "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tools"
+            "value": "Exorcise Anything"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "道具箱"
+            "value": "なんでも成仏"
           }
-        }
-      }
-    },
-    "shop": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "상점"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shop"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "お店"
-          }
-        }
-      }
-    },
-    "camera": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "촬영"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Camera"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "撮影"
-          }
-        }
-      }
-    },
-    "haunted": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "악령"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Spirits"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "悪霊"
-          }
-        }
-      }
-    },
-    "blessed": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부적"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Charms"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "お守り"
-          }
-        }
-      }
-    },
-    "result": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "촬영 결과"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Captured spirit"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "撮影結果"
-          }
-        }
-      }
-    },
-    "exorcism": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "퇴마 중"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exorcism"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "除霊中"
-          }
-        }
-      }
-    },
-    "exorcise": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "퇴마"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exorcise"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "除霊する"
-          }
-        }
-      }
-    },
-    "exorcise_now": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "즉시 퇴마"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exorcise now"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "今すぐ除霊"
-          }
-        }
-      }
-    },
-    "collect": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "수집"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keep card"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "収集する"
-          }
-        }
-      }
-    },
-    "discard": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "퇴마 포기"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Let it go"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "除霊をやめる"
-          }
-        }
-      }
-    },
-    "release": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "풀어주기"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Release charm"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "手放す"
-          }
-        }
-      }
-    },
-    "save_image": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이미지 저장"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save image"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "画像を保存"
-          }
-        }
-      }
-    },
-    "saved_image": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진에 저장했어요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Saved to Photos."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "写真に保存しました。"
-          }
-        }
-      }
-    },
-    "rename": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이름 저장"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save name"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "名前を保存"
-          }
-        }
-      }
-    },
-    "retake": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 촬영"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take another"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "もう一度撮る"
-          }
-        }
-      }
-    },
-    "cancel": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "취소"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キャンセル"
-          }
-        }
-      }
-    },
-    "ok": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "확인"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "確認"
+            "value": "무엇이든성불"
           }
         }
       }
@@ -2603,12 +50,6 @@
     "back": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "뒤로"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2620,1178 +61,885 @@
             "state": "translated",
             "value": "戻る"
           }
-        }
-      }
-    },
-    "delete": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "삭제"
+            "value": "뒤로"
           }
-        },
+        }
+      }
+    },
+    "bag": {
+      "extractionState": "manual",
+      "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delete"
+            "value": "Tools"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "削除"
+            "value": "道具箱"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도구함"
           }
         }
       }
     },
-    "delete_title": {
+    "blessed": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 카드를 보내줄까요?"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Release this card?"
+            "value": "Charms"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "このカードを手放しますか？"
+            "value": "お守り"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "부적"
           }
         }
       }
     },
-    "delete_message": {
+    "blessing_001": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카드와 사진이 카드함에서 삭제됩니다."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "The card and its photo will be removed from your collection."
+            "value": "May ill fortune pass and peace remain."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "カードと写真がカード帳から削除されます。"
+            "value": "厄が去り、穏やかな日々が訪れますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "나쁜 기운은 물러가고 평안이 깃들기를."
           }
         }
       }
     },
-    "leave_title": {
+    "blessing_002": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "촬영 결과를 어떻게 할까요?"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keep this capture?"
+            "value": "May you travel safely and return in peace."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "撮影結果をどうしますか？"
+            "value": "行く先々で無事に過ごし、安らかに帰れますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "가는 곳마다 무탈하고 돌아오는 길도 평안하기를."
           }
         }
       }
     },
-    "leave_message": {
+    "blessing_003": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "수집하거나 폐기한 뒤 돌아갈 수 있어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keep the card or discard this capture before leaving."
+            "value": "May peace fill your home and worries fade."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "収集するか破棄してから戻れます。"
+            "value": "家に安らぎが満ち、心配ごとが遠のきますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "집 안에 평안이 머물고 근심이 멀어지기를."
           }
         }
       }
     },
-    "requirements": {
+    "blessing_004": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "필요한 도구"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Required tools"
+            "value": "May your body and mind be well and at ease."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "必要な道具"
+            "value": "心も体も健やかで、穏やかに過ごせますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "몸과 마음이 늘 건강하고 편안하기를."
           }
         }
       }
     },
-    "needed_owned": {
+    "blessing_005": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "필요 %lld · 보유 %lld"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Need %lld · Have %lld"
+            "value": "May you come safely through unexpected trials."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "必要 %lld · 所持 %lld"
+            "value": "思いがけない困難も無事に乗り越えられますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "뜻밖의 어려움도 무사히 지나가기를."
           }
         }
       }
     },
-    "tier": {
+    "blessing_006": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld티어"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tier %lld"
+            "value": "May those you love be safe wherever they are."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ティア %lld"
+            "value": "大切な人たちが、どこにいても無事でありますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사랑하는 이들이 어디서나 무탈하기를."
           }
         }
       }
     },
-    "reward": {
+    "blessing_007": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "퇴마 보상 +%lld G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Reward +%lld G"
+            "value": "May you sleep deeply and wake refreshed."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "除霊報酬 +%lld G"
+            "value": "夜はぐっすり眠り、朝はすっきり目覚められますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "밤에는 깊이 쉬고 아침에는 가뿐히 일어나기를."
           }
         }
       }
     },
-    "taps": {
+    "blessing_008": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld회 터치"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld taps"
+            "value": "May your heart stay steady in uncertain times."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld 回タップ"
+            "value": "心が揺れるときも、自分を見失わずにいられますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "흔들리는 순간에도 마음의 중심을 지키기를."
           }
         }
       }
     },
-    "remaining": {
+    "blessing_009": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "남은 터치 %lld회"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld taps remaining"
+            "value": "May misfortune pass you by and good fortune stay."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "あと %lld 回"
+            "value": "災いを避け、幸運に恵まれますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "궂은일은 비켜가고 좋은 기운이 함께하기를."
           }
         }
       }
     },
-    "exorcism_hint": {
+    "blessing_010": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카드를 터치해 퇴마"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tap the card to exorcise"
+            "value": "May warmth surround you wherever you stay."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "カードをタップして除霊"
+            "value": "どこにいても、温かな気に包まれますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "머무는 자리마다 따뜻한 기운이 깃들기를."
           }
         }
       }
     },
-    "exorcism_cost": {
+    "blessing_011": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도구는 퇴마 완료 시에만 소모됩니다."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tools are used only when exorcism is complete."
+            "value": "May peace accompany every journey, near or far."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "道具は除霊が完了したときだけ消費されます。"
+            "value": "遠くへも近くへも、道中が穏やかでありますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "먼 길에도 가까운 길에도 평안이 함께하기를."
           }
         }
       }
     },
-    "completed": {
+    "blessing_012": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "성불 완료!"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rest in peace!"
+            "value": "May today and tomorrow pass in quiet peace."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "成仏完了！"
+            "value": "今日も明日も、何事もなく穏やかに過ごせますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "오늘도 내일도 별 탈 없이 평온하기를."
           }
         }
       }
     },
-    "holiness": {
+    "blessing_013": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신성함 %lld"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Holiness %lld"
+            "value": "May your wishes come true with ease."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "神聖度 %lld"
+            "value": "願いごとが順調にかないますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "바라는 일이 순조롭게 이루어지기를."
           }
         }
       }
     },
-    "empty_album": {
+    "blessing_014": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "아직 카드가 없어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No cards yet."
+            "value": "May your care and effort bear good fruit."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "まだカードがありません。"
+            "value": "心を込めた努力が、よい実を結びますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "정성 들인 일에 좋은 결실이 맺히기를."
           }
         }
       }
     },
-    "empty_hint": {
+    "blessing_015": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "일상 속 무엇이든 찍어 보세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Find a spirit in something ordinary."
+            "value": "May prosperity grow and your home know plenty."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "身近なものを撮ってみましょう。"
+            "value": "財に恵まれ、暮らしが豊かになりますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "재물은 모이고 살림은 넉넉해지기를."
           }
         }
       }
     },
-    "buy_tools": {
+    "blessing_016": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상점에서 구매"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Get tools at the shop"
+            "value": "May the right opportunity arrive at the right time."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お店で買う"
+            "value": "よい機会が、ふさわしいときに訪れますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "좋은 기회가 알맞은 때에 찾아오기를."
           }
         }
       }
     },
-    "buy": {
+    "blessing_017": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구매하기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buy tools"
+            "value": "May a bright path open with each new beginning."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "購入する"
+            "value": "新たな始まりに、明るい道が開けますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "새로 시작하는 일에 밝은 길이 열리기를."
           }
         }
       }
     },
-    "purchased": {
+    "blessing_018": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구매 완료!"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tools purchased!"
+            "value": "May obstacles clear and the way ahead open."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "購入しました！"
+            "value": "滞っていた物事が動き出し、道が開けますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "막혀 있던 일이 풀리고 앞길이 트이기를."
           }
         }
       }
     },
-    "price": {
+    "blessing_019": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "개당 2 G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "2 G each"
+            "value": "May your long-held hopes finally bloom."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "1個 2 G"
+            "value": "長く抱いてきた願いが、ついに花開きますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "오래 품은 소망이 마침내 꽃피기를."
           }
         }
       }
     },
-    "total": {
+    "blessing_020": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "합계 %lld G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Total %lld G"
+            "value": "May your learning deepen and your efforts shine."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "合計 %lld G"
+            "value": "学びが深まり、努力が輝きますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "배운 것이 깊어지고 노력한 만큼 빛나기를."
           }
         }
       }
     },
-    "missing": {
+    "blessing_021": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld개 부족"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld short"
+            "value": "May your preparation shine when it matters most."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "あと %lld 個"
+            "value": "大切な場面で、培った力を発揮できますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "중요한 순간에 준비한 실력을 펼치기를."
           }
         }
       }
     },
-    "work": {
+    "blessing_022": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "알바하기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Work a shift"
+            "value": "May wisdom guide you at every crossroads."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アルバイト"
+            "value": "選択のたびに、知恵に導かれますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "선택의 갈림길마다 지혜가 함께하기를."
           }
         }
       }
     },
-    "work_title": {
+    "blessing_023": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상점 알바"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Shop shift"
+            "value": "May small blessings gather into lasting joy."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お店のアルバイト"
+            "value": "小さな幸せが重なり、大きな喜びとなりますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "작은 복이 쌓여 큰 기쁨으로 돌아오기를."
           }
         }
       }
     },
-    "work_order": {
+    "blessing_024": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ 하나 주세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "One %@, please."
+            "value": "May all you do bring good company and opportunity."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@をひとつください。"
+            "value": "取り組むことすべてに、よいご縁と機会がありますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "하는 일마다 좋은 인연과 기회가 이어지기를."
           }
         }
       }
     },
-    "work_hint": {
+    "blessing_025": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "맞는 도구를 건네면 +1 G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Serve the right tool for +1 G"
+            "value": "May good connections find you and endure."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "正しい道具を渡すと +1 G"
+            "value": "よいご縁に恵まれ、末永く続きますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "좋은 인연은 가까워지고 오래 이어지기를."
           }
         }
       }
     },
-    "work_wrong": {
+    "blessing_026": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주문을 다시 확인해 주세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Check the order again."
+            "value": "May your care for one another grow deeper."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "注文をもう一度確認してください。"
+            "value": "互いを大切に思う心が、深まりますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "서로를 아끼는 마음이 깊어지기를."
           }
         }
       }
     },
-    "work_right": {
+    "blessing_027": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "고마워요! +1 G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Thank you! +1 G"
+            "value": "May you share more laughter with those you cherish."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ありがとう！ +1 G"
+            "value": "大切な人と笑い合う日が、増えますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "소중한 사람과 웃음을 나누는 날이 많아지기를."
           }
         }
       }
     },
-    "exit_work": {
+    "blessing_028": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "상점으로 나가기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Leave shift"
+            "value": "May the worries in your heart gently fade."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お店に戻る"
+            "value": "心に積もった悩みが、そっとほどけますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마음에 쌓인 근심이 가볍게 흩어지기를."
           }
         }
       }
     },
-    "resume_capture": {
+    "blessing_029": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전 촬영 이어보기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Resume your capture"
+            "value": "May your warmth reach those far away."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "前の撮影を続ける"
+            "value": "遠くにいる人にも、温かな思いが届きますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "멀리 있는 이에게도 따뜻한 마음이 닿기를."
           }
         }
       }
     },
-    "camera_unavailable": {
+    "blessing_030": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카메라를 사용할 수 없어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Camera unavailable."
+            "value": "May hurt feelings heal and kind words flow."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "カメラを使用できません。"
+            "value": "わだかまりが解け、優しい言葉を交わせますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "서운함은 풀리고 다정한 말이 오가기를."
           }
         }
       }
     },
-    "camera_permission": {
+    "blessing_031": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "설정에서 카메라 접근을 허용해 주세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Allow camera access in Settings."
+            "value": "May your weary heart find strength to carry on."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "設定でカメラへのアクセスを許可してください。"
+            "value": "疲れた心に、また歩み出す力が宿りますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지친 마음에 다시 나아갈 힘이 깃들기를."
           }
         }
       }
     },
-    "settings": {
+    "blessing_032": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "설정 열기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Open Settings"
+            "value": "May your faith in yourself grow strong."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "設定を開く"
+            "value": "自分を信じる心が、強くなりますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "스스로를 믿는 마음이 단단해지기를."
           }
         }
       }
     },
-    "flip_camera": {
+    "blessing_033": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카메라 전환"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Switch camera"
+            "value": "May the kindness you give return as friendship."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "カメラを切り替え"
+            "value": "注いだ優しさが、温かなご縁となって返りますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "베푼 정성이 따뜻한 인연으로 돌아오기를."
           }
         }
       }
     },
-    "flash": {
+    "blessing_034": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "플래시"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Flash"
+            "value": "May you find steadfast support, even on a lone path."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "フラッシュ"
+            "value": "ひとりで歩む道にも、心強い支えがありますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "혼자 걷는 길에도 든든한 인연이 함께하기를."
           }
         }
       }
     },
-    "shutter": {
+    "blessing_035": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "촬영하기"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Take photo"
+            "value": "May old sorrows fade and new joys take root."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "写真を撮る"
+            "value": "過ぎた悲しみが薄れ、新しい喜びが芽生えますように。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지나간 아픔은 옅어지고 새 기쁨이 깃들기를."
           }
         }
       }
     },
-    "camera_guide": {
+    "blessing_036": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무엇이든 프레임 안에"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Anything inside the frame"
+            "value": "May the happiness you wish for stay close."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "なんでも枠の中へ"
+            "value": "心から願う幸せが、末永くそばにありますように。"
           }
-        }
-      }
-    },
-    "simulator_sample": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "시뮬레이터 샘플 촬영"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Capture simulator sample"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "シミュレータでサンプル撮影"
-          }
-        }
-      }
-    },
-    "error_title": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "잠깐만요"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "One moment"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "お待ちください"
-          }
-        }
-      }
-    },
-    "error_generic": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "작업을 완료하지 못했어요. 다시 시도해 주세요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not complete the action. Please try again."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "操作を完了できませんでした。もう一度お試しください。"
-          }
-        }
-      }
-    },
-    "error_gold": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "골드가 부족해요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not enough gold."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ゴールドが足りません。"
-          }
-        }
-      }
-    },
-    "error_tools": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "필요한 도구가 부족해요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Some required tools are missing."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "必要な道具が足りません。"
-          }
-        }
-      }
-    },
-    "error_card_missing": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "카드를 찾을 수 없어요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Card not found."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "カードが見つかりません。"
-          }
-        }
-      }
-    },
-    "error_already_blessed": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이미 성불한 카드예요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This card is already blessed."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "すでに成仏したカードです。"
-          }
-        }
-      }
-    },
-    "error_invalid_data": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터를 읽을 수 없어요. 저장 파일은 유지됩니다."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The data could not be read. Your save file is preserved."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "データを読み込めません。保存ファイルは保持されます。"
-          }
-        }
-      }
-    },
-    "error_empty_purchase": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구매할 도구를 선택해 주세요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select tools to buy."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "購入する道具を選んでください。"
-          }
-        }
-      }
-    },
-    "error_storage": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저장하지 못했어요. 저장 공간을 확인해 주세요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not save. Check available storage."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "保存できません。空き容量を確認してください。"
-          }
-        }
-      }
-    },
-    "error_photo": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진을 처리하지 못했어요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Could not process the photo."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "写真を処理できません。"
-          }
-        }
-      }
-    },
-    "photo_permission": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진 저장을 허용하려면 설정을 확인해 주세요."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Allow adding photos in Settings to save this image."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "画像を保存するには、設定で写真の追加を許可してください。"
-          }
-        }
-      }
-    },
-    "retry": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 시도"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Try again"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "再試行"
+            "value": "소중히 바라는 행복이 오래 곁에 머물기를."
           }
         }
       }
@@ -3799,12 +947,6 @@
     "boot_error": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "저장 데이터를 열지 못했어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3816,133 +958,18 @@
             "state": "translated",
             "value": "保存データを開けませんでした。"
           }
-        }
-      }
-    },
-    "quantity": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "수량"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Quantity"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "数量"
+            "value": "저장 데이터를 열지 못했어요."
           }
         }
       }
     },
-    "owned": {
+    "buy": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "보유 %lld개"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Owned: %lld"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "所持 %lld 個"
-          }
-        }
-      }
-    },
-    "name_hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "최대 40자"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Up to 40 characters"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "40文字まで"
-          }
-        }
-      }
-    },
-    "flash_on": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "켜짐"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "On"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "オン"
-          }
-        }
-      }
-    },
-    "flash_off": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "꺼짐"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "オフ"
-          }
-        }
-      }
-    },
-    "shop_buy_tab": {
-      "extractionState": "manual",
-      "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "도구 구매"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3952,53 +979,151 @@
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "道具を買う"
+            "value": "購入する"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "구매하기"
           }
         }
       }
     },
-    "shop_sell_tab": {
+    "buy_tools": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부적 판매"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sell charms"
+            "value": "Get tools at the shop"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お守りを売る"
+            "value": "お店で買う"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상점에서 구매"
           }
         }
       }
     },
-    "charm_buyer": {
+    "camera_guide": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부적 매입 상인"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Charm buyer"
+            "value": "Anything inside the frame"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お守り買取商"
+            "value": "なんでも枠の中へ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "무엇이든 프레임 안에"
+          }
+        }
+      }
+    },
+    "camera_permission": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow camera access in Settings."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定でカメラへのアクセスを許可してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정에서 카메라 접근을 허용해 주세요."
+          }
+        }
+      }
+    },
+    "camera_unavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera unavailable."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラを使用できません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라를 사용할 수 없어요."
+          }
+        }
+      }
+    },
+    "cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "취소"
+          }
+        }
+      }
+    },
+    "capture": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exorcise"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成仏させる"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "성불시키기"
           }
         }
       }
@@ -4006,12 +1131,6 @@
     "charm_buyer_line": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "좋은 기운, 제값에 삽니다."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4023,281 +1142,356 @@
             "state": "translated",
             "value": "よい気を、よいお値段で。"
           }
-        }
-      }
-    },
-    "sale_price_rule": {
-      "extractionState": "manual",
-      "localizations": {
+        },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "신성함 1~10은 3 G · 10마다 +1 G · 최대 12 G"
+            "value": "좋은 기운, 제값에 삽니다."
           }
-        },
+        }
+      }
+    },
+    "charm_name_placeholder": {
+      "extractionState": "manual",
+      "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Holiness 1–10: 3 G · +1 G per 10 points · Up to 12 G"
+            "value": "Give it a name"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "神聖度1〜10は3 G・10ごとに+1 G・最大12 G"
+            "value": "名前をつけてください"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이름을 지어 주세요"
           }
         }
       }
     },
-    "sale_empty": {
+    "collect": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "판매할 부적이 없어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "No charms to sell."
+            "value": "Keep card"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "売れるお守りがありません。"
+            "value": "収集する"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수집"
           }
         }
       }
     },
-    "sale_empty_hint": {
+    "completed": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "악령을 퇴마하면 부적으로 판매할 수 있어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Exorcise a spirit to turn it into a charm you can sell."
+            "value": "Rest in peace!"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "悪霊を除霊すると、お守りとして売れます。"
+            "value": "成仏完了！"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "성불 완료!"
           }
         }
       }
     },
-    "sale_quote": {
+    "delete": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "매입가 %lld G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Offer: %lld G"
+            "value": "Delete"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "買取価格 %lld G"
+            "value": "削除"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "삭제"
           }
         }
       }
     },
-    "sale_selected": {
+    "delete_message": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ · %lld G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ · %lld G"
+            "value": "The card and its photo will be removed from your collection."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@・%lld G"
+            "value": "カードと写真がカード帳から削除されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카드와 사진이 카드함에서 삭제됩니다."
           }
         }
       }
     },
-    "sale_warning": {
+    "delete_title": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "판매한 부적은 카드함에서 사라지며 되돌릴 수 없어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sold charms leave your collection. Sales cannot be undone."
+            "value": "Release this card?"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "売ったお守りはカード帳からなくなり、元に戻せません。"
+            "value": "このカードを手放しますか？"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 카드를 보내줄까요?"
           }
         }
       }
     },
-    "sale_select_hint": {
+    "discard": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "판매할 부적을 한 장 선택해 주세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Choose one charm to sell."
+            "value": "Let it go"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "売るお守りを1枚選んでください。"
+            "value": "除霊をやめる"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "퇴마 포기"
           }
         }
       }
     },
-    "sell_charm": {
+    "empty_album": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "선택한 부적 판매"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sell selected charm"
+            "value": "No cards yet."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "選んだお守りを売る"
+            "value": "まだカードがありません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아직 카드가 없어요."
           }
         }
       }
     },
-    "sale_confirm_title": {
+    "empty_hint": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 부적을 판매할까요?"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sell this charm?"
+            "value": "Find a spirit in something ordinary."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "このお守りを売りますか？"
+            "value": "身近なものを撮ってみましょう。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일상 속 무엇이든 찍어 보세요."
           }
         }
       }
     },
-    "sale_confirm_message": {
+    "error_already_blessed": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@을(를) %lld G에 판매합니다. 카드함에서 사라지며 되돌릴 수 없어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sell %@ for %lld G. It will leave your collection. This cannot be undone."
+            "value": "This card is already blessed."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@を%lld Gで売ります。カード帳からなくなり、元に戻せません。"
+            "value": "すでに成仏したカードです。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이미 성불한 카드예요."
           }
         }
       }
     },
-    "sale_action": {
+    "error_card_missing": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld G에 판매"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sell for %lld G"
+            "value": "Card not found."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%lld Gで売る"
+            "value": "カードが見つかりません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카드를 찾을 수 없어요."
           }
         }
       }
     },
-    "sale_completed": {
+    "error_empty_purchase": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "부적 판매 완료! +%lld G"
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Charm sold! +%lld G"
+            "value": "Select tools to buy."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "お守りを売りました！ +%lld G"
+            "value": "購入する道具を選んでください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "구매할 도구를 선택해 주세요."
+          }
+        }
+      }
+    },
+    "error_generic": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not complete the action. Please try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作を完了できませんでした。もう一度お試しください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "작업을 완료하지 못했어요. 다시 시도해 주세요."
+          }
+        }
+      }
+    },
+    "error_gold": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not enough gold."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ゴールドが足りません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "골드가 부족해요."
+          }
+        }
+      }
+    },
+    "error_invalid_data": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The data could not be read. Your save file is preserved."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "データを読み込めません。保存ファイルは保持されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "데이터를 읽을 수 없어요. 저장 파일은 유지됩니다."
           }
         }
       }
@@ -4305,12 +1499,6 @@
     "error_not_sellable": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "퇴마가 완료된 부적만 판매할 수 있어요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4322,28 +1510,425 @@
             "state": "translated",
             "value": "除霊済みのお守りだけ売れます。"
           }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "퇴마가 완료된 부적만 판매할 수 있어요."
+          }
+        }
+      }
+    },
+    "error_photo": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not process the photo."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写真を処理できません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진을 처리하지 못했어요."
+          }
+        }
+      }
+    },
+    "error_storage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save. Check available storage."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存できません。空き容量を確認してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "저장하지 못했어요. 저장 공간을 확인해 주세요."
+          }
+        }
+      }
+    },
+    "error_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One moment"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お待ちください"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "잠깐만요"
+          }
+        }
+      }
+    },
+    "error_tools": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Some required tools are missing."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "必要な道具が足りません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필요한 도구가 부족해요."
+          }
+        }
+      }
+    },
+    "exit_work": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit shift"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バイトをやめる"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "알바 그만하기"
+          }
+        }
+      }
+    },
+    "exorcise": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exorcise"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "除霊する"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "퇴마"
+          }
+        }
+      }
+    },
+    "exorcise_now": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exorcise now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今すぐ除霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "즉시 퇴마"
+          }
+        }
+      }
+    },
+    "exorcism": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exorcism"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "除霊中"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "퇴마 중"
+          }
+        }
+      }
+    },
+    "exorcism_cost": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tools are used only when exorcism is complete."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "道具は除霊が完了したときだけ消費されます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도구는 퇴마 완료 시에만 소모됩니다."
+          }
+        }
+      }
+    },
+    "exorcism_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the card to exorcise"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カードをタップして除霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카드를 터치해 퇴마"
+          }
+        }
+      }
+    },
+    "flash": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flash"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フラッシュ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "플래시"
+          }
+        }
+      }
+    },
+    "flash_off": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "꺼짐"
+          }
+        }
+      }
+    },
+    "flash_on": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オン"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "켜짐"
+          }
+        }
+      }
+    },
+    "flip_camera": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Switch camera"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラを切り替え"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "카메라 전환"
+          }
+        }
+      }
+    },
+    "haunted": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spirits"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "悪霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "악령"
+          }
+        }
+      }
+    },
+    "holiness": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Holiness %lld"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "神聖度 %lld"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신성함 %lld"
+          }
+        }
+      }
+    },
+    "home_tagline": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Point. Shoot. Rest in peace."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "とりあえず撮って、成仏させよう。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일단 찍고, 성불시키자."
+          }
         }
       }
     },
     "import_photo": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진 불러오기"
-          }
-        },
         "en": {
           "stringUnit": {
-            "state": "translated",
-            "value": "Import Photo"
+            "state": "needs_review",
+            "value": "Import & Exorcise"
           }
         },
         "ja": {
           "stringUnit": {
+            "state": "needs_review",
+            "value": "読み込んで成仏"
+          }
+        },
+        "ko": {
+          "stringUnit": {
             "state": "translated",
-            "value": "写真を読み込む"
+            "value": "불러와서 성불"
           }
         }
       }
@@ -4351,12 +1936,6 @@
     "import_photo_failed": {
       "extractionState": "manual",
       "localizations": {
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진을 불러오지 못했어요. 다른 사진을 골라 주세요."
-          }
-        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4367,6 +1946,2358 @@
           "stringUnit": {
             "state": "translated",
             "value": "写真を読み込めませんでした。別の写真を選んでください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진을 불러오지 못했어요. 다른 사진을 골라 주세요."
+          }
+        }
+      }
+    },
+    "leave_message": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep the card or discard this capture before leaving."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "収集するか破棄してから戻れます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수집하거나 폐기한 뒤 돌아갈 수 있어요."
+          }
+        }
+      }
+    },
+    "leave_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep this capture?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "撮影結果をどうしますか？"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "촬영 결과를 어떻게 할까요?"
+          }
+        }
+      }
+    },
+    "missing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld short"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "あと %lld 個"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld개 부족"
+          }
+        }
+      }
+    },
+    "name_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Up to 40 characters"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "40文字まで"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "최대 40자"
+          }
+        }
+      }
+    },
+    "needed_owned": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Need %lld · Have %lld"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "必要 %lld · 所持 %lld"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필요 %lld · 보유 %lld"
+          }
+        }
+      }
+    },
+    "ok": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "確認"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "확인"
+          }
+        }
+      }
+    },
+    "owned": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Owned: %lld"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所持 %lld 個"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "보유 %lld개"
+          }
+        }
+      }
+    },
+    "photo_permission": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow adding photos in Settings to save this image."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像を保存するには、設定で写真の追加を許可してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진 저장을 허용하려면 설정을 확인해 주세요."
+          }
+        }
+      }
+    },
+    "price": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 G each"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1個 2 G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "개당 2 G"
+          }
+        }
+      }
+    },
+    "purchased": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tools purchased!"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "購入しました！"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "구매 완료!"
+          }
+        }
+      }
+    },
+    "quantity": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quantity"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数量"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수량"
+          }
+        }
+      }
+    },
+    "release": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard charm"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お守りを廃棄"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "부적 폐기"
+          }
+        }
+      }
+    },
+    "remaining": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld taps remaining"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "あと %lld 回"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "남은 터치 %lld회"
+          }
+        }
+      }
+    },
+    "rename": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save name"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名前を保存"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이름 저장"
+          }
+        }
+      }
+    },
+    "requirements": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Required tools"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "必要な道具"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "필요한 도구"
+          }
+        }
+      }
+    },
+    "resume_capture": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume your capture"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前の撮影を続ける"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이전 촬영 이어보기"
+          }
+        }
+      }
+    },
+    "retake": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take another"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "もう一度撮る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다시 촬영"
+          }
+        }
+      }
+    },
+    "retry": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再試行"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다시 시도"
+          }
+        }
+      }
+    },
+    "reward": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reward +%lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "除霊報酬 +%lld G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "퇴마 보상 +%lld G"
+          }
+        }
+      }
+    },
+    "sale_action": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sell for %lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Gで売る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld G에 판매"
+          }
+        }
+      }
+    },
+    "sale_completed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Charm sold! +%lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お守りを売りました！ +%lld G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "부적 판매 완료! +%lld G"
+          }
+        }
+      }
+    },
+    "sale_confirm_message": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sell %@ for %lld G. It will leave your collection. This cannot be undone."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@を%lld Gで売ります。カード帳からなくなり、元に戻せません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@을(를) %lld G에 판매합니다. 카드함에서 사라지며 되돌릴 수 없어요."
+          }
+        }
+      }
+    },
+    "sale_confirm_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sell this charm?"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このお守りを売りますか？"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이 부적을 판매할까요?"
+          }
+        }
+      }
+    },
+    "sale_empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No charms to sell."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "売れるお守りがありません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "판매할 부적이 없어요."
+          }
+        }
+      }
+    },
+    "sale_empty_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exorcise a spirit to turn it into a charm you can sell."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "悪霊を除霊すると、お守りとして売れます。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "악령을 퇴마하면 부적으로 판매할 수 있어요."
+          }
+        }
+      }
+    },
+    "sale_price_rule": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Holiness 1–10: 3 G · +1 G per 10 points · Up to 12 G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "神聖度1〜10は3 G・10ごとに+1 G・最大12 G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "신성함 1~10은 3 G · 10마다 +1 G · 최대 12 G"
+          }
+        }
+      }
+    },
+    "sale_quote": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offer: %lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "買取価格 %lld G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "매입가 %lld G"
+          }
+        }
+      }
+    },
+    "sale_select_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose one charm to sell."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "売るお守りを1枚選んでください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "판매할 부적을 한 장 선택해 주세요."
+          }
+        }
+      }
+    },
+    "sale_selected": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@・%lld G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %lld G"
+          }
+        }
+      }
+    },
+    "sale_warning": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sold charms leave your collection. Sales cannot be undone."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "売ったお守りはカード帳からなくなり、元に戻せません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "판매한 부적은 카드함에서 사라지며 되돌릴 수 없어요."
+          }
+        }
+      }
+    },
+    "save_image": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save image"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像を保存"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이미지 저장"
+          }
+        }
+      }
+    },
+    "saved_image": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved to Photos."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写真に保存しました。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진에 저장했어요."
+          }
+        }
+      }
+    },
+    "sell_charm": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sell selected charm"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選んだお守りを売る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "선택한 부적 판매"
+          }
+        }
+      }
+    },
+    "settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定を開く"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정 열기"
+          }
+        }
+      }
+    },
+    "shop": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shop"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お店"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상점"
+          }
+        }
+      }
+    },
+    "shop_buy_tab": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy tools"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "道具を買う"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도구 구매"
+          }
+        }
+      }
+    },
+    "shop_sell_tab": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sell charms"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お守りを売る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "부적 판매"
+          }
+        }
+      }
+    },
+    "shutter": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take photo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写真を撮る"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "촬영하기"
+          }
+        }
+      }
+    },
+    "simulator_sample": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture simulator sample"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "シミュレータでサンプル撮影"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시뮬레이터 샘플 촬영"
+          }
+        }
+      }
+    },
+    "spirit_t1_001": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asura"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "阿修羅"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "수라"
+          }
+        }
+      }
+    },
+    "spirit_t1_002": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yaksha"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夜叉"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "야차"
+          }
+        }
+      }
+    },
+    "spirit_t1_003": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakshasa"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "羅刹"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "나찰"
+          }
+        }
+      }
+    },
+    "spirit_t1_004": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demon King"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "魔王"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마왕"
+          }
+        }
+      }
+    },
+    "spirit_t1_005": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghost King"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬼王"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "귀왕"
+          }
+        }
+      }
+    },
+    "spirit_t1_006": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hungry Wraith"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "餓鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "아귀"
+          }
+        }
+      }
+    },
+    "spirit_t1_007": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Great Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "대도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t1_008": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancient Fox"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "千年の九尾"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "천년구미호"
+          }
+        }
+      }
+    },
+    "spirit_t1_009": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancient Hopper"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "百年キョンシー"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "백년강시"
+          }
+        }
+      }
+    },
+    "spirit_t1_010": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ancient Serpent"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "千年大蛇"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "천년이무기"
+          }
+        }
+      }
+    },
+    "spirit_t1_011": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "赤鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "붉은도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t1_012": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nightmare Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "悪夢の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "악몽귀"
+          }
+        }
+      }
+    },
+    "spirit_t2_001": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t2_002": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flame Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "火の鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "불도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t2_003": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One-Eyed Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一つ目鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "외눈도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t2_004": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nine-Tailed Fox"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "九尾の狐"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "구미호"
+          }
+        }
+      }
+    },
+    "spirit_t2_005": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hopping Vampire"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キョンシー"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "강시"
+          }
+        }
+      }
+    },
+    "spirit_t2_006": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vampire"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "吸血鬼"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "흡혈귀"
+          }
+        }
+      }
+    },
+    "spirit_t2_007": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mummy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ミイラ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "미라"
+          }
+        }
+      }
+    },
+    "spirit_t2_008": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Werewolf"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "狼男"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "늑대인간"
+          }
+        }
+      }
+    },
+    "spirit_t2_009": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snow Woman"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雪女"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설녀"
+          }
+        }
+      }
+    },
+    "spirit_t2_010": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serpent"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大蛇"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "이무기"
+          }
+        }
+      }
+    },
+    "spirit_t2_011": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Darkling"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暗がりの霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "어둑시니"
+          }
+        }
+      }
+    },
+    "spirit_t2_012": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Broom Goblin"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ほうきの妖怪"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "빗자루도깨비"
+          }
+        }
+      }
+    },
+    "spirit_t3_001": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glutton Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "食欲の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "걸신"
+          }
+        }
+      }
+    },
+    "spirit_t3_002": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "水の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "물귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_003": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maiden Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "乙女の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "처녀귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_004": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bachelor Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "青年の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "총각귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_005": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faceless Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "のっぺらぼう"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "달걀귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_006": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mirror Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鏡の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "거울귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_007": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Well Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "井戸の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "우물귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_008": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Night-Road Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夜道の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "밤길귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_009": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vengeful Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "怨霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "원귀"
+          }
+        }
+      }
+    },
+    "spirit_t3_010": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Earthbound Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "地縛霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "지박령"
+          }
+        }
+      }
+    },
+    "spirit_t3_011": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guest Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "客の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "손님귀신"
+          }
+        }
+      }
+    },
+    "spirit_t3_012": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dream Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夢の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "꿈귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_001": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lesser Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "雑霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "잡귀"
+          }
+        }
+      }
+    },
+    "spirit_t4_002": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stray Spirit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "迷い霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "객귀"
+          }
+        }
+      }
+    },
+    "spirit_t4_003": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wandering Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "さまよう霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "떠돌이귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_004": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dust Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ほこりの霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "먼지귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_005": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drowsy Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "居眠りの霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "낮잠귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_006": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trickster Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いたずらの霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "장난귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_007": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alley Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "路地の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "골목귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_008": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attic Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "屋根裏の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다락귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_009": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doorway Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "戸口の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "문틈귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_010": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shadow Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "影の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "그림자귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_011": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Echo Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "こだまの霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "메아리귀신"
+          }
+        }
+      }
+    },
+    "spirit_t4_012": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empty-Room Ghost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空き部屋の霊"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "빈방귀신"
+          }
+        }
+      }
+    },
+    "taps": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld taps"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 回タップ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld회 터치"
+          }
+        }
+      }
+    },
+    "tier": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tier %lld"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ティア %lld"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld티어"
+          }
+        }
+      }
+    },
+    "tool_fist": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fist"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拳"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "주먹"
+          }
+        }
+      }
+    },
+    "tool_garlic": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Garlic"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ニンニク"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마늘"
+          }
+        }
+      }
+    },
+    "tool_holy_water": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Holy Water"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "聖水"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "성수"
+          }
+        }
+      }
+    },
+    "tool_red_beans": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red Beans"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小豆"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "팥"
+          }
+        }
+      }
+    },
+    "tool_salt": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salt"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "塩"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "소금"
+          }
+        }
+      }
+    },
+    "tool_talisman": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paper Talisman"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お札"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "부적"
+          }
+        }
+      }
+    },
+    "total": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Total %lld G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "合計 %lld G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "합계 %lld G"
+          }
+        }
+      }
+    },
+    "work": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work a shift"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アルバイト"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "알바하기"
+          }
+        }
+      }
+    },
+    "work_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serve the right tool for +1 G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正しい道具を渡すと +1 G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "맞는 도구를 건네면 +1 G"
+          }
+        }
+      }
+    },
+    "work_order": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One %@, please."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@をひとつください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 하나 주세요."
+          }
+        }
+      }
+    },
+    "work_right": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thank you! +1 G"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ありがとう！ +1 G"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "고마워요! +1 G"
+          }
+        }
+      }
+    },
+    "work_title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shop shift"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "お店のアルバイト"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "상점 알바"
+          }
+        }
+      }
+    },
+    "work_wrong": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check the order again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "注文をもう一度確認してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "주문을 다시 확인해 주세요."
           }
         }
       }

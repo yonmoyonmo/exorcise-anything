@@ -20,7 +20,7 @@ struct CardDetailScreen: View {
             if card.kind == .haunted { hauntedControls(card) } else { blessedControls(card) }
           }.padding(20).frame(maxWidth: 500).frame(maxWidth: .infinity)
         }
-        .gameScreen(card.kind == .blessed ? "blessed" : card.collected ? "haunted" : "result")
+        .gameScreen(card.kind == .blessed ? "blessed" : card.collected ? "haunted" : "")
         .navigationBarBackButtonHidden(!card.collected || card.kind == .blessed)
         .toolbar {
           if !card.collected || card.kind == .blessed {
@@ -29,7 +29,7 @@ struct CardDetailScreen: View {
                 if card.kind == .blessed { backToCharms() } else { leaving = true }
               } label: {
                 Label(L("back"), systemImage: "chevron.left")
-              }
+              }.haptic()
             }
           }
         }
@@ -100,7 +100,7 @@ struct CardDetailScreen: View {
           save(card)
         }.disabled(exporting)
       }
-      Button(L("discard"), role: .destructive) { deleting = true }.padding(10)
+      Button(L("discard"), role: .destructive) { deleting = true }.padding(10).haptic()
     }
   }
   private func blessedControls(_ card: SpiritCard) -> some View {
@@ -109,7 +109,7 @@ struct CardDetailScreen: View {
         TextField(L("charm_name_placeholder"), text: $name).focused($naming).textFieldStyle(
           .roundedBorder
         ).submitLabel(.done).onSubmit { saveName() }
-        Button(L("rename")) { saveName() }.font(.callout)
+        Button(L("rename")) { saveName() }.font(.callout).haptic()
       }
       Text(verbatim: L("name_hint")).font(.caption).frame(maxWidth: .infinity, alignment: .leading)
       GameButton(key: "save_image", symbol: "square.and.arrow.down", color: Palette.gold) {
@@ -119,7 +119,7 @@ struct CardDetailScreen: View {
         GameButton(key: "album", color: Palette.ivory) { nav.album(.blessed) }
         GameButton(key: "retake", color: Palette.ivory) { nav.path = [.camera] }
       }
-      Button(L("release"), role: .destructive) { deleting = true }.padding(10)
+      Button(L("release"), role: .destructive) { deleting = true }.padding(10).haptic()
     }
   }
   private func backToCharms() {
@@ -233,7 +233,7 @@ struct AlbumScreen: View {
               + " \(store.state.cards.filter{$0.collected && $0.kind==kind}.count)"
           ).tag(kind)
         }
-      }.pickerStyle(.segmented).padding(.horizontal, 20)
+      }.pickerStyle(.segmented).padding(.horizontal, 20).sensoryFeedback(.selection, trigger: nav.albumKind)
       ScrollView {
         if cards.isEmpty {
           ContentUnavailableView(
@@ -247,14 +247,11 @@ struct AlbumScreen: View {
                 nav.path.append(.card(card.id))
               } label: {
                 CardFace(card: card, photo: store.image(card), compact: true)
-              }.buttonStyle(.plain)
+              }.buttonStyle(.plain).haptic()
             }
           }.padding(20)
         }
       }
-      GameButton(key: "retake", symbol: "camera") { nav.path.append(.camera) }.padding(
-        .horizontal, 20
-      ).padding(.bottom, 12)
     }.gameScreen("album")
   }
 }

@@ -98,7 +98,7 @@ struct HomeView: View {
               Image(systemName: "sparkle").font(.system(size: 36)).foregroundStyle(Palette.green)
                 .padding(20)
             }
-          }.buttonStyle(.plain)
+          }.buttonStyle(.plain).haptic()
           LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
             menu("album", "rectangle.stack", .album)
             menu("bag", "shippingbox", .bag)
@@ -107,7 +107,7 @@ struct HomeView: View {
             menu("shop", "storefront", .shop(nil))
             PhotosPicker(selection: $pickedPhoto, matching: .images) {
               menuLabel("import_photo", "photo.on.rectangle")
-            }.buttonStyle(.plain).disabled(importing)
+            }.buttonStyle(.plain).haptic().disabled(importing)
           }
           if let draft = store.drafts.first {
             GameButton(key: "resume_capture", color: Palette.ivory) {
@@ -134,7 +134,7 @@ struct HomeView: View {
       nav.path.append(route)
     } label: {
       menuLabel(key, icon)
-    }.buttonStyle(.plain)
+    }.buttonStyle(.plain).haptic()
   }
   private func menuLabel(_ key: String, _ icon: String) -> some View {
     VStack(spacing: 10) {

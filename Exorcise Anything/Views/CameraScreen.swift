@@ -29,7 +29,7 @@ struct CameraScreen: View {
                 if let url = URL(string: UIApplication.openSettingsURLString) {
                   UIApplication.shared.open(url)
                 }
-              }
+              }.haptic()
             }
           }.foregroundStyle(.white).padding(30)
         } else {
@@ -42,7 +42,7 @@ struct CameraScreen: View {
         } label: {
           Image(systemName: "arrow.triangle.2.circlepath.camera").font(.title2).frame(
             width: 60, height: 60)
-        }.accessibilityLabel(L("flip_camera")).disabled(!model.ready || model.capturing)
+        }.haptic().accessibilityLabel(L("flip_camera")).disabled(!model.ready || model.capturing)
         Spacer()
         Button {
           model.capture { image in
@@ -51,7 +51,7 @@ struct CameraScreen: View {
         } label: {
           Circle().fill(.white).frame(width: 72, height: 72).padding(5).overlay(
             Circle().stroke(Palette.purple, lineWidth: 4))
-        }.accessibilityLabel(L("shutter")).disabled(
+        }.haptic(.medium).accessibilityLabel(L("shutter")).disabled(
           !model.ready || model.capturing)
         Spacer()
         Button {
@@ -59,7 +59,7 @@ struct CameraScreen: View {
         } label: {
           Image(systemName: model.flash ? "bolt.fill" : "bolt.slash").font(.title2).frame(
             width: 60, height: 60)
-        }.accessibilityLabel(L("flash")).accessibilityValue(
+        }.haptic().accessibilityLabel(L("flash")).accessibilityValue(
           L(model.flash ? "flash_on" : "flash_off")
         ).disabled(!model.hasFlash || model.capturing)
       }
@@ -76,7 +76,7 @@ struct CameraScreen: View {
           captured(image)
         }
       #endif
-    }.padding(20).gameScreen("camera").task { await model.start() }.onDisappear {
+    }.padding(20).gameScreen("").task { await model.start() }.onDisappear {
       model.hardware.stop()
     }.onChange(of: phase) { _, phase in
       if phase == .active { Task { await model.start() } } else { model.hardware.stop() }
