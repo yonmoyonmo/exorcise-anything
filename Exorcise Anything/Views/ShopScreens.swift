@@ -134,7 +134,6 @@ struct ShopScreen: View {
     VStack(spacing: 16) {
       VStack(spacing: 8) {
         Text(verbatim: L("charm_buyer_line")).font(Palette.font(17))
-        Text(verbatim: L("sale_price_rule")).font(.caption).foregroundStyle(.secondary)
       }.multilineTextAlignment(.center).frame(maxWidth: .infinity).panel()
       if charms.isEmpty {
         ContentUnavailableView(

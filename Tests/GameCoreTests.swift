@@ -22,7 +22,7 @@ final class GameCoreTests: XCTestCase {
       let card = SpiritCard.capture(using: &random)
       try card.validate()
       counts[card.tier, default: 0] += 1
-      XCTAssertEqual(card.tapGoal, [1: 24, 2: 16, 3: 10, 4: 5][card.tier])
+      XCTAssertEqual(card.tapGoal, [1: 96, 2: 64, 3: 40, 4: 20][card.tier])
     }
     for (tier, expected) in [1: 0.1, 2: 0.2, 3: 0.3, 4: 0.4] {
       XCTAssertEqual(Double(counts[tier, default: 0]) / 20000, expected, accuracy: 0.02)

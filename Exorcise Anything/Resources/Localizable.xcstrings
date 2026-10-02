@@ -2324,29 +2324,6 @@
         }
       }
     },
-    "retake": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take another"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "もう一度撮る"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다시 촬영"
-          }
-        }
-      }
-    },
     "retry": {
       "extractionState": "manual",
       "localizations": {
@@ -2527,29 +2504,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "악령을 퇴마하면 부적으로 판매할 수 있어요."
-          }
-        }
-      }
-    },
-    "sale_price_rule": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Holiness 1–10: 3 G · +1 G per 10 points · Up to 12 G"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "神聖度1〜10は3 G・10ごとに+1 G・最大12 G"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "신성함 1~10은 3 G · 10마다 +1 G · 최대 12 G"
           }
         }
       }
@@ -4298,6 +4252,29 @@
           "stringUnit": {
             "state": "translated",
             "value": "주문을 다시 확인해 주세요."
+          }
+        }
+      }
+    },
+    "crop_hint": {
+      "extractionState": "manual",
+      "localizations": {
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사진을 움직이고 확대해서 카드에 넣을 부분을 골라 주세요."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag and pinch to choose the part for the card."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ドラッグとピンチでカードに使う部分を選んでください。"
           }
         }
       }

@@ -25,7 +25,7 @@ struct SpiritCard: Identifiable, Codable, Equatable, Sendable {
   var holiness: Int?
   var blessingKey: String?
   var name: String?
-  var tapGoal: Int { [1: 24, 2: 16, 3: 10, 4: 5][tier] ?? 5 }
+  var tapGoal: Int { [1: 96, 2: 64, 3: 40, 4: 20][tier] ?? 5 }
   var toolCount: Int { requirements.values.reduce(0, +) }
   var reward: Int { toolCount * Tool.price + (6 - tier) }
   /// Only completed, collected charms can be sold. Ten-point bands pay 3...12 G.

@@ -206,6 +206,48 @@ struct QuantityPicker: View {
       L(tool.key) + " " + L("quantity"))
   }
 }
+/// Dark purple grade, vignette and flickering green noise laid over a haunted card's photo.
+struct HauntedFilter: View {
+  var animated: Bool
+  @Environment(\.accessibilityReduceMotion) private var reduceMotion
+  private static let noiseGreen = Color(red: 0x6C / 255, green: 0xE4 / 255, blue: 0x11 / 255)
+  var body: some View {
+    ZStack {
+      Color(red: 0.20, green: 0.04, blue: 0.38).opacity(0.50)
+      RadialGradient(
+        colors: [.clear, .black.opacity(0.55)], center: .center, startRadius: 40, endRadius: 260)
+      if animated && !reduceMotion {
+        TimelineView(.periodic(from: .now, by: 0.12)) { context in
+          noise(seed: UInt64(context.date.timeIntervalSinceReferenceDate * 8.3))
+        }
+      } else {
+        noise(seed: 7)
+      }
+    }.allowsHitTesting(false)
+  }
+  private func noise(seed: UInt64) -> some View {
+    Canvas { context, size in
+      var state = seed &* 0x9E37_79B9_7F4A_7C15 &+ 1
+      func next() -> Double {
+        state = state &* 6_364_136_223_846_793_005 &+ 1_442_695_040_888_963_407
+        return Double(state >> 11) / Double(1 << 53)
+      }
+      let dot = max(2, size.width / 140)
+      let count = Int(size.width * size.height / (dot * dot * 22))
+      for _ in 0..<count {
+        let rect = CGRect(x: next() * size.width, y: next() * size.height, width: dot, height: dot)
+        context.fill(Path(rect), with: .color(Self.noiseGreen.opacity(0.10 + next() * 0.40)))
+      }
+      // a couple of thin glitch scanlines
+      for _ in 0..<2 {
+        let y = next() * size.height
+        context.fill(
+          Path(CGRect(x: 0, y: y, width: size.width, height: max(1, dot / 2))),
+          with: .color(Self.noiseGreen.opacity(0.12)))
+      }
+    }
+  }
+}
 /// Card border that slowly cycles between two colors with a soft glow. Static under Reduce Motion.
 struct GlowingBorder: View {
   let from: Color
@@ -251,15 +293,17 @@ struct CardFace: View {
       }
       ZStack {
         if let photo {
-          Image(uiImage: photo).resizable().scaledToFill()
+          // Square layout box first, so a wide or tall photo can never stretch the card.
+          Color.clear.aspectRatio(1, contentMode: .fit).overlay(
+            Image(uiImage: photo).resizable().scaledToFill())
         } else {
           Rectangle().fill(Palette.paper).overlay(
             Image(systemName: "photo").foregroundStyle(Palette.ink).animation(
               .easeInOut(duration: 0.35), value: card.kind))
         }
-      }.frame(maxWidth: .infinity).aspectRatio(1, contentMode: .fit).clipped().overlay(
-        blessed ? Color.clear : Palette.purple.opacity(0.28)
-      ).clipShape(RoundedRectangle(cornerRadius: 8))
+      }.frame(maxWidth: .infinity).aspectRatio(1, contentMode: .fit).clipped().overlay {
+        if !blessed { HauntedFilter(animated: !compact) }
+      }.clipShape(RoundedRectangle(cornerRadius: 8))
       if blessed {
         HStack(spacing: 5) {
           Image("stat_holiness").resizable().interpolation(.none).scaledToFit().frame(

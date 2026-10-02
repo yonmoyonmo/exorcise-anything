@@ -16,6 +16,7 @@ struct CardDetailScreen: View {
       if let card = store.card(id) {
         ScrollView {
           VStack(spacing: 18) {
+            if card.kind == .blessed { nameField }
             CardFace(card: card, photo: store.image(card)).padding(.top, 6)
             if card.kind == .haunted { hauntedControls(card) } else { blessedControls(card) }
           }.padding(20).frame(maxWidth: 500).frame(maxWidth: .infinity)
@@ -103,8 +104,8 @@ struct CardDetailScreen: View {
       Button(L("discard"), role: .destructive) { deleting = true }.padding(10).haptic()
     }
   }
-  private func blessedControls(_ card: SpiritCard) -> some View {
-    VStack(spacing: 14) {
+  private var nameField: some View {
+    VStack(spacing: 6) {
       HStack {
         TextField(L("charm_name_placeholder"), text: $name).focused($naming).textFieldStyle(
           .roundedBorder
@@ -112,13 +113,14 @@ struct CardDetailScreen: View {
         Button(L("rename")) { saveName() }.font(.callout).haptic()
       }
       Text(verbatim: L("name_hint")).font(.caption).frame(maxWidth: .infinity, alignment: .leading)
+    }
+  }
+  private func blessedControls(_ card: SpiritCard) -> some View {
+    VStack(spacing: 14) {
       GameButton(key: "save_image", symbol: "square.and.arrow.down", color: Palette.gold) {
         save(card)
       }.disabled(exporting)
-      HStack {
-        GameButton(key: "album", color: Palette.ivory) { nav.album(.blessed) }
-        GameButton(key: "retake", color: Palette.ivory) { nav.path = [.camera] }
-      }
+      GameButton(key: "album", color: Palette.ivory) { nav.album(.blessed) }
       Button(L("release"), role: .destructive) { deleting = true }.padding(10).haptic()
     }
   }
@@ -143,8 +145,10 @@ struct CardDetailScreen: View {
         return
       }
       let renderer = ImageRenderer(
-        content: CardFace(card: card, photo: store.image(card)).frame(width: 340).padding(12)
-          .background(Palette.paper))
+        content: VStack(spacing: 8) {
+          CardFace(card: card, photo: store.image(card)).frame(width: 340)
+          Text(verbatim: "yowenomo's cyber general store").font(Palette.font(10)).opacity(0.55)
+        }.foregroundStyle(Palette.ink).padding(12).background(Palette.paper))
       renderer.scale = 3
       guard let image = renderer.uiImage else {
         store.report(GameError.photo)

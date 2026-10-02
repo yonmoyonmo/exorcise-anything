@@ -75,6 +75,7 @@ struct HomeView: View {
   @Environment(NavigationState.self) var nav
   @State private var pickedPhoto: PhotosPickerItem?
   @State private var importing = false
+  @State private var cropRequest: CropRequest?
   var body: some View {
     GeometryReader { geometry in
       let compact = geometry.size.height < 700
@@ -125,8 +126,15 @@ struct HomeView: View {
         guard let data = try? await item.loadTransferable(type: Data.self),
           let image = UIImage(data: data)
         else { return store.toast = L("import_photo_failed") }
-        do { nav.imported(try store.capture(image)) } catch { store.report(error) }
+        cropRequest = CropRequest(image: image.normalized())
       }
+    }.fullScreenCover(item: $cropRequest) { request in
+      CropScreen(
+        image: request.image,
+        onDone: { cropped in
+          cropRequest = nil
+          do { nav.imported(try store.capture(cropped)) } catch { store.report(error) }
+        }, onCancel: { cropRequest = nil })
     }
   }
   private func menu(_ key: String, _ icon: String, _ route: Route) -> some View {

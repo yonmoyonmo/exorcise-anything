@@ -1,1 +1,12 @@
-{"images": [{"filename": "work-counter-v1.png", "idiom": "universal"}], "info": {"author": "xcode", "version": 1}}
+{
+  "images" : [
+    {
+      "filename" : "work-counter.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
