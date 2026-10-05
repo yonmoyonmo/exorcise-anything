@@ -250,8 +250,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "무엇이든성불";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSCameraUsageDescription = "일상의 대상을 촬영해 악령 카드로 만듭니다.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "완성한 카드 이미지를 사진에 저장합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,8 +294,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "무엇이든성불";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSCameraUsageDescription = "일상의 대상을 촬영해 악령 카드로 만듭니다.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "완성한 카드 이미지를 사진에 저장합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
